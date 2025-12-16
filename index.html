@@ -213,9 +213,7 @@
         .projets-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
         .project-card { background: var(--card-background); border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7); border: 1px solid #333; transition: all var(--transition-duration); }
         .project-card:hover { border-color: var(--primary-color); box-shadow: 0 8px 20px var(--shadow); }
-        .project-image-container { height: 220px; overflow: hidden; border-bottom: 1px solid #333; }
-        .project-image { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform var(--transition-duration); }
-        .project-card:hover .project-image { transform: scale(1.05); }
+        /* RÈGLES CSS RELATIVES AUX IMAGES DE PROJET SUPPRIMÉES */
         .project-info { padding: 20px; }
         .project-info h3 { font-size: 1.6rem; margin-bottom: 10px; color: var(--primary-color); }
         .project-info p { margin-bottom: 15px; font-size: 0.95rem; color: var(--light-text); }
@@ -520,10 +518,7 @@
                 <div class="projets-gallery">
 
                     <div class="project-card">
-                        <div class="project-image-container">
-                            <img src="https://via.placeholder.com/600x400/0d0d0d/f7b32b?text=Projet+SaaS" alt="Image du Projet SaaS" class="project-image">
-                        </div>
-                        <div class="project-info">
+                        <div class="project-info" style="padding-top: 25px;">
                             <h3>Application de Gestion de Projets</h3>
                             <p>Outil SaaS conçu pour optimiser les flux de travail. Stack : Next.js, Node.js, PostgreSQL. Performance A+ sur Lighthouse.</p>
                             <a href="[Lien vers le Projet 1]" class="btn btn-small" target="_blank">Voir le projet</a>
@@ -531,10 +526,7 @@
                     </div>
 
                     <div class="project-card">
-                        <div class="project-image-container">
-                            <img src="https://via.placeholder.com/600x400/0d0d0d/f7b32b?text=API+REST" alt="Image du Projet API REST" class="project-image">
-                        </div>
-                        <div class="project-info">
+                        <div class="project-info" style="padding-top: 25px;">
                             <h3>API RESTful pour Banque de Données</h3>
                             <p>Développement d'une API haute disponibilité avec Node/Express. 99.9% de temps de fonctionnement, tests unitaires et intégration Docker.</p>
                             <a href="[Lien vers la Documentation API]" class="btn btn-small" target="_blank">Documentation</a>
@@ -542,10 +534,7 @@
                     </div>
 
                     <div class="project-card">
-                        <div class="project-image-container">
-                            <img src="https://via.placeholder.com/600x400/0d0d0d/f7b32b?text=E-commerce+Boutique" alt="Image du Projet Boutique" class="project-image">
-                        </div>
-                        <div class="project-info">
+                        <div class="project-info" style="padding-top: 25px;">
                             <h3>Refonte d'un Site E-commerce Haut de Gamme</h3>
                             <p>Amélioration UX/UI et intégration React/Redux pour une expérience d'achat fluide. Augmentation du taux de conversion de 20%.</p>
                             <a href="[Lien vers le Projet 3]" class="btn btn-small" target="_blank">Voir le projet</a>
